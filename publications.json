@@ -1,0 +1,665 @@
+[
+  {
+    "id": "paper-01",
+    "sourceNumber": 1,
+    "title": "CUP: Constrained Update Projection Algorithms for Safety Robot Control",
+    "authors": [
+      "Long Yang",
+      "Fenghao Lei",
+      "Jiaming Ji",
+      "Juntai Dai",
+      "Zhouchen Lin",
+      "Gang Pan"
+    ],
+    "year": null,
+    "venue": "Artificial Intelligence",
+    "url": "",
+    "topics": [
+      "reinforcement-learning",
+      "embodied-ai"
+    ],
+    "featured": false,
+    "note": "CCF-A; accepted (as stated in the supplied publication list).",
+    "status": "accepted",
+    "sourceUrl": "",
+    "verificationNote": "Exact publication title, year, and author spelling have not been independently confirmed. Preserves the supplied entry; no year was supplied.",
+    "summary": ""
+  },
+  {
+    "id": "paper-02",
+    "sourceNumber": 2,
+    "title": "Constrained Update Projection Approach to Safe Policy Optimization",
+    "authors": [
+      "Long Yang",
+      "Jiaming Ji",
+      "Juntao Dai",
+      "Linrui Zhang",
+      "Binbin Zhou",
+      "Pengfei Li",
+      "Yaodong Yang",
+      "Gang Pan"
+    ],
+    "year": 2022,
+    "venue": "NeurIPS",
+    "url": "https://arxiv.org/abs/2209.07089",
+    "topics": [
+      "reinforcement-learning"
+    ],
+    "featured": true,
+    "note": "CCF-A.",
+    "status": "published",
+    "sourceUrl": "https://proceedings.neurips.cc/paper_files/paper/2022/file/3ba7560b4c3e66d760fbdd472cf4a5a9-Paper-Conference.pdf",
+    "verificationNote": "Official paper identifies Long Yang and Jiaming Ji as equal contributors.",
+    "summary": "A constrained policy optimization framework with performance bounds and first-order updates for safe reinforcement learning."
+  },
+  {
+    "id": "paper-03",
+    "sourceNumber": 3,
+    "title": "Policy Optimization with Stochastic Mirror Descent",
+    "authors": [
+      "Long Yang",
+      "Yu Zhang",
+      "Gang Zheng",
+      "Qian Zheng",
+      "Pengfei Li",
+      "Jianhang Huang",
+      "Gang Pan"
+    ],
+    "year": 2022,
+    "venue": "AAAI",
+    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/20863",
+    "topics": [
+      "reinforcement-learning"
+    ],
+    "featured": false,
+    "note": "CCF-A.",
+    "status": "published",
+    "sourceUrl": "https://ojs.aaai.org/index.php/AAAI/article/view/20863",
+    "verificationNote": "AAAI landing-page author list used. Official PDF spells Huang’s given name Jianghang and identifies Long Yang and Yu Zhang as equal contributors.",
+    "summary": ""
+  },
+  {
+    "id": "paper-04",
+    "sourceNumber": 4,
+    "title": "Sample Complexity of Policy Gradient Finding Second-Order Stationary Points",
+    "authors": [
+      "Long Yang",
+      "Qian Zheng",
+      "Gang Pan"
+    ],
+    "year": 2021,
+    "venue": "AAAI",
+    "url": "https://arxiv.org/abs/2012.01491",
+    "topics": [
+      "reinforcement-learning"
+    ],
+    "featured": false,
+    "note": "CCF-A.",
+    "status": "published",
+    "sourceUrl": "https://cdn.aaai.org/ojs/17271/17271-13-20765-1-2-20210518.pdf",
+    "verificationNote": "",
+    "summary": ""
+  },
+  {
+    "id": "paper-05",
+    "sourceNumber": 5,
+    "title": "On Convergence of Gradient Expected Sarsa(λ)",
+    "authors": [
+      "Long Yang",
+      "Gang Zheng",
+      "Yu Zhang",
+      "Qian Zheng",
+      "Pengfei Li",
+      "Gang Pan"
+    ],
+    "year": 2021,
+    "venue": "AAAI",
+    "url": "https://arxiv.org/abs/2012.07199",
+    "topics": [
+      "reinforcement-learning"
+    ],
+    "featured": false,
+    "note": "CCF-A.",
+    "status": "published",
+    "sourceUrl": "https://ojs.aaai.org/index.php/AAAI/article/download/17270/17077",
+    "verificationNote": "",
+    "summary": ""
+  },
+  {
+    "id": "paper-06",
+    "sourceNumber": 6,
+    "title": "A Unified Approach for Multi-step Temporal-Difference Learning with Eligibility Traces in Reinforcement Learning",
+    "authors": [
+      "Long Yang",
+      "Minhao Shi",
+      "Qian Zheng",
+      "Wenjia Meng",
+      "Gang Pan"
+    ],
+    "year": 2018,
+    "venue": "IJCAI",
+    "url": "https://ijcai.org/proceedings/2018/414",
+    "topics": [
+      "reinforcement-learning"
+    ],
+    "featured": false,
+    "note": "CCF-A.",
+    "status": "published",
+    "sourceUrl": "https://ijcai.org/proceedings/2018/414",
+    "verificationNote": "",
+    "summary": ""
+  },
+  {
+    "id": "paper-07",
+    "sourceNumber": 7,
+    "title": "A Thompson Sampling Algorithm With Logarithmic Regret for Unimodal Gaussian Bandit",
+    "authors": [
+      "Long Yang",
+      "Zhao Li",
+      "Zehong Hu",
+      "Shasha Ruan",
+      "Gang Pan"
+    ],
+    "year": 2023,
+    "venue": "IEEE TNNLS",
+    "url": "https://doi.org/10.1109/TNNLS.2023.3295360",
+    "topics": [
+      "learning-theory"
+    ],
+    "featured": false,
+    "note": "JCR-Q1.",
+    "status": "published",
+    "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/37527328/",
+    "verificationNote": "",
+    "summary": ""
+  },
+  {
+    "id": "paper-08",
+    "sourceNumber": 8,
+    "title": "Policy Representation via Diffusion Probability Model for Reinforcement Learning",
+    "authors": [
+      "Long Yang",
+      "Zhixiong Huang",
+      "Fenghao Lei",
+      "Yucun Zhong",
+      "Yiming Yang",
+      "Cong Fang",
+      "Shiting Wen",
+      "Binbin Zhou",
+      "Zhouchen Lin"
+    ],
+    "year": 2023,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2305.13122",
+    "topics": [
+      "reinforcement-learning"
+    ],
+    "featured": true,
+    "note": "Listed as a preprint; historical TPAMI submission status in the supplied list.",
+    "status": "preprint",
+    "sourceUrl": "https://arxiv.org/abs/2305.13122",
+    "verificationNote": "Full author list verified against arXiv. No later venue confirmed.",
+    "summary": "Theoretical foundations and a practical online reinforcement learning algorithm for expressive policies based on diffusion models."
+  },
+  {
+    "id": "paper-09",
+    "sourceNumber": 9,
+    "title": "A General Perspective on Objectives of Reinforcement Learning",
+    "authors": [
+      "Long Yang"
+    ],
+    "year": 2023,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2306.03074",
+    "topics": [
+      "reinforcement-learning"
+    ],
+    "featured": false,
+    "note": "Listed as a preprint; historical JMLR submission status in the supplied list.",
+    "status": "preprint",
+    "sourceUrl": "https://arxiv.org/abs/2306.03074",
+    "verificationNote": "Corrected the supplied typo “xon” using the arXiv title.",
+    "summary": ""
+  },
+  {
+    "id": "paper-10",
+    "sourceNumber": 10,
+    "title": "A Review of Safe Reinforcement Learning: Methods, Theories and Applications",
+    "authors": [
+      "Shangding Gu",
+      "Long Yang",
+      "Yali Du",
+      "Guang Chen",
+      "Florian Walter",
+      "Jun Wang",
+      "Alois Knoll"
+    ],
+    "year": 2024,
+    "venue": "IEEE TPAMI",
+    "url": "https://doi.org/10.1109/TPAMI.2024.3457538",
+    "topics": [
+      "reinforcement-learning",
+      "embodied-ai"
+    ],
+    "featured": true,
+    "note": "Originally listed as a 2022 preprint with historical TPAMI submission status.",
+    "status": "published",
+    "sourceUrl": "https://discovery.ucl.ac.uk/id/eprint/10197913/",
+    "verificationNote": "Updated to the verified 2024 TPAMI publication; original preprint https://arxiv.org/abs/2205.10330.",
+    "summary": "A survey of safe reinforcement learning methods, theoretical foundations, benchmarks, and applications to real-world decision making."
+  },
+  {
+    "id": "paper-11",
+    "sourceNumber": 11,
+    "title": "Off-OAB: Off-Policy Policy Gradient Method with Optimal Action-Dependent Baseline",
+    "authors": [
+      "Wenjia Meng",
+      "Qian Zheng",
+      "Long Yang",
+      "Yilong Yin",
+      "Gang Pan"
+    ],
+    "year": 2024,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2405.02572",
+    "topics": [
+      "reinforcement-learning"
+    ],
+    "featured": false,
+    "note": "",
+    "status": "preprint",
+    "sourceUrl": "https://arxiv.org/abs/2405.02572",
+    "verificationNote": "arXiv author list includes Yilong Yin, omitted from the supplied list.",
+    "summary": ""
+  },
+  {
+    "id": "paper-12",
+    "sourceNumber": 12,
+    "title": "Convergence Rate of Primal-Dual Approach to Safe Reinforcement Learning with Softmax Policy",
+    "authors": [
+      "Long Yang",
+      "Cong Fang",
+      "Zhouchen Lin"
+    ],
+    "year": 2024,
+    "venue": "Manuscript",
+    "url": "",
+    "topics": [
+      "reinforcement-learning",
+      "learning-theory"
+    ],
+    "featured": false,
+    "note": "Listed under submissions; mentions COLT 2024 and NeurIPS 2024 in the historical source.",
+    "status": "manuscript",
+    "sourceUrl": "",
+    "verificationNote": "Current publication status not confirmed. Author name order normalized from Fang Cong and Lin Zhouchen. A similarly titled 2023 OpenReview submission has different authors and was not treated as an exact match.",
+    "summary": ""
+  },
+  {
+    "id": "paper-13",
+    "sourceNumber": 13,
+    "title": "On Asymptotic Optimality of Forced-Exploitation Free Thompson Sampling for Unimodal Graph Stochastic Multi-armed Bandit",
+    "authors": [
+      "Long Yang",
+      "Zhouchen Lin"
+    ],
+    "year": 2024,
+    "venue": "Manuscript",
+    "url": "",
+    "topics": [
+      "learning-theory"
+    ],
+    "featured": false,
+    "note": "Listed under submissions; mentions ICML 2024 and NeurIPS 2024 in the historical source.",
+    "status": "manuscript",
+    "sourceUrl": "",
+    "verificationNote": "Current publication status not confirmed; no link supplied or independently verified.",
+    "summary": ""
+  },
+  {
+    "id": "paper-14",
+    "sourceNumber": 14,
+    "title": "Optimizing over Multiple Distributions under Generalized Quasar-Convexity Condition",
+    "authors": [
+      "Shihong Ding",
+      "Long Yang",
+      "Luo Luo",
+      "Cong Fang"
+    ],
+    "year": 2024,
+    "venue": "NeurIPS",
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/0885cd8bf11e9ca58302992ddcfd3652-Abstract-Conference.html",
+    "topics": [
+      "optimization",
+      "learning-theory"
+    ],
+    "featured": true,
+    "note": "Originally listed as a submission.",
+    "status": "published",
+    "sourceUrl": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/0885cd8bf11e9ca58302992ddcfd3652-Abstract-Conference.html",
+    "verificationNote": "Updated to the official NeurIPS 2024 publication.",
+    "summary": "An optimization framework for multiple probability distributions, with adaptive guarantees and applications to reinforcement learning and Markov games."
+  },
+  {
+    "id": "paper-15",
+    "sourceNumber": 15,
+    "title": "ACME: Adaptive Compositional Augmentation to Improve Graph Contrastive Learning",
+    "authors": [
+      "Binbin Zhou",
+      "Weikun Wang",
+      "Long Yang",
+      "et al."
+    ],
+    "year": 2024,
+    "venue": "Manuscript",
+    "url": "",
+    "topics": [
+      "representation-learning"
+    ],
+    "featured": false,
+    "note": "Listed under submissions; mentions IJCAI 2024 and IEEE TKDE in the historical source.",
+    "status": "manuscript",
+    "sourceUrl": "",
+    "verificationNote": "Current publication status and complete author list not confirmed. Year inferred from the stated 33rd IJCAI; source does not give a separate manuscript date.",
+    "summary": ""
+  },
+  {
+    "id": "paper-16",
+    "sourceNumber": 16,
+    "title": "FlagVNE: A Flexible and Generalizable Reinforcement Learning Framework for Network Resource Allocation",
+    "authors": [
+      "Tianfu Wang",
+      "Qilin Fan",
+      "Chao Wang",
+      "Long Yang",
+      "Leilei Ding",
+      "Nicholas Jing Yuan",
+      "Hui Xiong"
+    ],
+    "year": 2024,
+    "venue": "IJCAI",
+    "url": "https://www.ijcai.org/proceedings/2024/0266.pdf",
+    "topics": [
+      "reinforcement-learning"
+    ],
+    "featured": false,
+    "note": "CCF-A.",
+    "status": "published",
+    "sourceUrl": "https://www.ijcai.org/proceedings/2024/0266.pdf",
+    "verificationNote": "Official proceedings title differs from the supplied longer title ending “Resource Allocation in Network Virtualization”; complete author list verified.",
+    "summary": ""
+  },
+  {
+    "id": "paper-17",
+    "sourceNumber": 17,
+    "title": "Langevin Policy for Safe Reinforcement Learning",
+    "authors": [
+      "Fenghao Lei",
+      "Long Yang",
+      "Shiting Wen",
+      "Zhixiong Huang",
+      "Zhiwang Zhang",
+      "Chaoyi Pang"
+    ],
+    "year": 2024,
+    "venue": "ICML",
+    "url": "https://proceedings.mlr.press/v235/lei24a.html",
+    "topics": [
+      "reinforcement-learning"
+    ],
+    "featured": true,
+    "note": "CCF-A.",
+    "status": "published",
+    "sourceUrl": "https://proceedings.mlr.press/v235/lei24a.html",
+    "verificationNote": "Corrected first-author name Feihao to Fenghao and ICML2014 typo to ICML 2024 using official PMLR proceedings.",
+    "summary": "A sampling-based policy for safe reinforcement learning, with Langevin Actor-Critic to accelerate action inference."
+  },
+  {
+    "id": "paper-18",
+    "sourceNumber": 18,
+    "title": "DILI: A Distribution-Driven Learned Index",
+    "authors": [
+      "Pengfei Li",
+      "Hua Lu",
+      "Rong Zhu",
+      "Bolin Ding",
+      "Long Yang",
+      "Gang Pan"
+    ],
+    "year": 2023,
+    "venue": "PVLDB",
+    "url": "https://www.vldb.org/pvldb/vol16/p2212-li.pdf",
+    "topics": [
+      "data-systems"
+    ],
+    "featured": false,
+    "note": "CCF-A.",
+    "status": "published",
+    "sourceUrl": "https://www.vldb.org/pvldb/vol16/p2212-li.pdf",
+    "verificationNote": "",
+    "summary": ""
+  },
+  {
+    "id": "paper-19",
+    "sourceNumber": 19,
+    "title": "Penalized Proximal Policy Optimization for Safe Reinforcement Learning",
+    "authors": [
+      "Linrui Zhang",
+      "Li Shen",
+      "Long Yang",
+      "Shixiang Chen",
+      "Xueqian Wang",
+      "Bo Yuan",
+      "Dacheng Tao"
+    ],
+    "year": 2022,
+    "venue": "IJCAI",
+    "url": "https://ijcai.org/proceedings/2022/520",
+    "topics": [
+      "reinforcement-learning"
+    ],
+    "featured": false,
+    "note": "CCF-A.",
+    "status": "published",
+    "sourceUrl": "https://ijcai.org/proceedings/2022/520",
+    "verificationNote": "",
+    "summary": ""
+  },
+  {
+    "id": "paper-20",
+    "sourceNumber": 20,
+    "title": "Zeroth-order Optimization with Weak Dimension Dependency",
+    "authors": [
+      "Pengyun Yue",
+      "Long Yang",
+      "Cong Fang",
+      "Zhouchen Lin"
+    ],
+    "year": 2023,
+    "venue": "COLT",
+    "url": "https://proceedings.mlr.press/v195/yue23b.html",
+    "topics": [
+      "optimization",
+      "learning-theory"
+    ],
+    "featured": false,
+    "note": "CCF-B.",
+    "status": "published",
+    "sourceUrl": "https://proceedings.mlr.press/v195/yue23b.html",
+    "verificationNote": "",
+    "summary": ""
+  },
+  {
+    "id": "paper-21",
+    "sourceNumber": 21,
+    "title": "Safe Multi-agent Reinforcement Learning for Multi-robot Control",
+    "authors": [
+      "Shangding Gu",
+      "Jakub Grudzien Kuba",
+      "Yuanpei Chen",
+      "Yali Du",
+      "Long Yang",
+      "Alois Knoll",
+      "Yaodong Yang"
+    ],
+    "year": 2023,
+    "venue": "Artificial Intelligence",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0004370223000516",
+    "topics": [
+      "reinforcement-learning",
+      "embodied-ai"
+    ],
+    "featured": true,
+    "note": "CCF-A.",
+    "status": "published",
+    "sourceUrl": "https://www.sciencedirect.com/science/article/pii/S0004370223000516",
+    "verificationNote": "",
+    "summary": "Safe multi-agent reinforcement learning methods for coordinated control of multiple robots."
+  },
+  {
+    "id": "paper-22",
+    "sourceNumber": 22,
+    "title": "Augmented Proximal Policy Optimization for Safe Reinforcement Learning",
+    "authors": [
+      "Juntao Dai",
+      "Jiaming Ji",
+      "Long Yang",
+      "Qian Zheng",
+      "Gang Pan"
+    ],
+    "year": 2023,
+    "venue": "AAAI",
+    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/25888",
+    "topics": [
+      "reinforcement-learning"
+    ],
+    "featured": false,
+    "note": "CCF-A.",
+    "status": "published",
+    "sourceUrl": "https://ojs.aaai.org/index.php/AAAI/article/view/25888",
+    "verificationNote": "",
+    "summary": ""
+  },
+  {
+    "id": "paper-23",
+    "sourceNumber": 23,
+    "title": "Exploiting Ratings, Reviews and Relationships for Item Recommendations in Topic Based Social Networks",
+    "authors": [
+      "Pengfei Li",
+      "Hua Lu",
+      "Gang Zheng",
+      "Qian Zheng",
+      "Long Yang",
+      "Gang Pan"
+    ],
+    "year": 2019,
+    "venue": "WWW",
+    "url": "https://doi.org/10.1145/3308558.3313473",
+    "topics": [
+      "recommender-systems"
+    ],
+    "featured": false,
+    "note": "CCF-A.",
+    "status": "published",
+    "sourceUrl": "https://doi.org/10.1145/3308558.3313473",
+    "verificationNote": "",
+    "summary": ""
+  },
+  {
+    "id": "paper-24",
+    "sourceNumber": 24,
+    "title": "LISA: A Learned Index Structure for Spatial Data",
+    "authors": [
+      "Pengfei Li",
+      "Hua Lu",
+      "Qian Zheng",
+      "Long Yang",
+      "Gang Pan"
+    ],
+    "year": 2020,
+    "venue": "SIGMOD",
+    "url": "https://dl.acm.org/doi/10.1145/3318464.3389703",
+    "topics": [
+      "data-systems"
+    ],
+    "featured": false,
+    "note": "CCF-A.",
+    "status": "published",
+    "sourceUrl": "https://dl.acm.org/doi/10.1145/3318464.3389703",
+    "verificationNote": "",
+    "summary": ""
+  },
+  {
+    "id": "paper-25",
+    "sourceNumber": 25,
+    "title": "TBQ(σ): Improving Efficiency of Trace Utilization for Off-Policy Reinforcement Learning",
+    "authors": [
+      "Longxiang Shi",
+      "Shijian Li",
+      "Longbing Cao",
+      "Long Yang",
+      "Gang Pan"
+    ],
+    "year": 2019,
+    "venue": "AAMAS",
+    "url": "https://www.ifaamas.org/Proceedings/aamas2019/pdfs/p1025.pdf",
+    "topics": [
+      "reinforcement-learning"
+    ],
+    "featured": false,
+    "note": "CCF-B.",
+    "status": "published",
+    "sourceUrl": "https://www.ifaamas.org/Proceedings/aamas2019/pdfs/p1025.pdf",
+    "verificationNote": "",
+    "summary": ""
+  },
+  {
+    "id": "paper-26",
+    "sourceNumber": 26,
+    "title": "Maximum Entropy Reinforcement Learning with Evolution Strategies",
+    "authors": [
+      "Longxiang Shi",
+      "Shijian Li",
+      "Qian Zheng",
+      "Longbing Cao",
+      "Long Yang",
+      "Gang Pan"
+    ],
+    "year": 2020,
+    "venue": "IJCNN",
+    "url": "https://doi.org/10.1109/IJCNN48605.2020.9207570",
+    "topics": [
+      "reinforcement-learning"
+    ],
+    "featured": false,
+    "note": "CCF-C.",
+    "status": "published",
+    "sourceUrl": "https://doi.org/10.1109/IJCNN48605.2020.9207570",
+    "verificationNote": "Verified author list includes Qian Zheng, omitted from the supplied list.",
+    "summary": ""
+  },
+  {
+    "id": "paper-27",
+    "sourceNumber": 27,
+    "title": "Qualitative Measurements of Policy Discrepancy for Return-Based Deep Q-Network",
+    "authors": [
+      "Wenjia Meng",
+      "Qian Zheng",
+      "Long Yang",
+      "Pengfei Li",
+      "Gang Pan"
+    ],
+    "year": 2020,
+    "venue": "IEEE TNNLS",
+    "url": "https://doi.org/10.1109/TNNLS.2019.2948892",
+    "topics": [
+      "reinforcement-learning"
+    ],
+    "featured": false,
+    "note": "JCR-Q1.",
+    "status": "published",
+    "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/31765320/",
+    "verificationNote": "Uses 2020 issue year, volume 31(10); online publication was 2019.",
+    "summary": ""
+  }
+]
