@@ -1,6 +1,6 @@
 # Long Yang — Academic Homepage
 
-An English academic homepage for Long Yang, Chief Scientist at Shenzhen DeepLeap Technology Co., Ltd.
+An English academic homepage for Long Yang, Co-founder and Chief Scientist at Shenzhen DeepLeap Technology Co., Ltd.
 
 The site is a lightweight static website designed for GitHub Pages. It includes a profile, research interests, searchable publications, professional experience, education, and contact information. The responsive sidebar and single-page structure are inspired by [Yige Yuan's homepage](https://yuanyige.github.io/); the implementation and styling are original.
 
@@ -36,7 +36,8 @@ The `.nojekyll` file enables direct static-file publishing. No secret, password,
 
 - Biography, employment, education, and portrait: provided by Long Yang in November 2026.
 - Company English name: confirmed by Long Yang as Shenzhen DeepLeap Technology Co., Ltd.
-- LinkedIn profile URL: supplied by Long Yang. Profile contents were not imported because LinkedIn restricted automated access.
+- Employment titles and dates at CAS and Peking University follow the LinkedIn text, explicitly confirmed by Long Yang to supersede the earlier biography screenshot.
+- LinkedIn profile URL and additional career details: supplied directly by Long Yang after LinkedIn restricted automated access. These include the co-founder role, DELE world-model research, internship experience, and degree subjects.
 - Publication entries: supplied publication list, with publication links and later venue information checked against scholarly sources where available. Verification details are retained in `publications.json`.
 - University names follow official institutional English names. Tiangong University's former name is included to clarify the historical education record.
 
