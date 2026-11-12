@@ -1,5 +1,36 @@
 [
   {
+    "id": "paper-28",
+    "title": "DELE-w0.5: Inferring Action from Future Latent State for Robotic Manipulation",
+    "authors": [
+      "Fenghao Lei",
+      "Zhixiong Huang",
+      "Long Yang",
+      "Jiabao Chen",
+      "Peilin Huang",
+      "Han Fu",
+      "Zhuo Li",
+      "Xiaoxue Ren"
+    ],
+    "year": 2026,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2608.22067",
+    "topics": [
+      "embodied-ai",
+      "robotics",
+      "world-models"
+    ],
+    "featured": true,
+    "note": "User-supplied arXiv preprint; v4 revised 31 Aug 2026.",
+    "status": "preprint",
+    "sourceUrl": "https://arxiv.org/abs/2608.22067",
+    "verificationNote": "Title, authors, version history, and abstract verified against arXiv record 2608.22067.",
+    "summary": "DELE-w0.5 infers robot actions from a compact future latent state instead of dense video generation, targeting lower-cost training and low-latency inference for robotic manipulation.",
+    "submittedDate": "2026-08-22",
+    "updatedDate": "2026-08-31",
+    "version": "v4"
+  },
+  {
     "id": "paper-01",
     "sourceNumber": 1,
     "title": "CUP: Constrained Update Projection Algorithms for Safety Robot Control",
