@@ -2,7 +2,7 @@
 
 An English academic homepage for Long Yang, Co-founder and Chief Scientist at Shenzhen DeepLeap Technology Co., Ltd.
 
-The site is a lightweight static website designed for GitHub Pages. It includes a profile, research interests, searchable publications, professional experience, education, and contact information. The responsive sidebar and single-page structure are inspired by [Yige Yuan's homepage](https://yuanyige.github.io/); the implementation and styling are original.
+The site is a lightweight static website designed for GitHub Pages. It includes a profile, education and professional experience directly below the introduction, research interests, searchable publications, and contact information. The responsive sidebar and single-page structure are inspired by [Yige Yuan's homepage](https://yuanyige.github.io/); the implementation and styling are original.
 
 ## Open locally
 
@@ -19,12 +19,12 @@ Then visit `http://localhost:8000`.
 ## Update content
 
 - Edit `source/index.template.html` to update the biography, experience, education, and contact details.
-- Edit `publications.json` to add or update papers. Set `featured` to `true` for papers shown in the initial selection.
+- Edit `publications.json` to add or update papers. Set `featured` to `true` for papers shown when visitors choose the Selected filter. All papers are displayed by default.
 - Run `python3 source/build.py` to regenerate `index.html` after changing either file.
 - Edit `assets/style.css` for appearance and `assets/site.js` for navigation and publication search.
 - Replace `assets/long-yang.jpg` to change the portrait.
 
-The complete publication list is embedded in HTML for indexing and for visitors who disable JavaScript. Searching checks all papers, including those outside the initial selection. Papers are ordered by year; manuscript status is kept separate from verified publication venues.
+The complete publication list is embedded in HTML for indexing and for visitors who disable JavaScript. Searching checks all papers, including those outside the optional Selected filter. Papers are ordered by year; manuscript status is kept separate from verified publication venues.
 
 ## Publish on GitHub Pages
 

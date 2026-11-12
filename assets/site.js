@@ -21,7 +21,7 @@
   const search = document.querySelector('#paper-search');
   const showAll = document.querySelector('.show-all');
   const status = document.querySelector('.result-status');
-  let selection = 'featured';
+  let selection = 'all';
   const normalize = text => text.normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
   const haystacks = new Map(papers.map(paper => [paper, normalize(paper.textContent)]));
   function updatePapers() {
@@ -40,7 +40,7 @@
       filter.classList.toggle('active', active);
       filter.setAttribute('aria-pressed', String(active));
     }
-    document.querySelector('.section-aside').textContent = terms.length ? 'Search results' : selection === 'all' ? 'All work' : 'Selected work';
+    document.querySelector('.section-aside').textContent = terms.length ? 'Search results' : selection === 'all' ? 'All papers' : 'Selected work';
     status.textContent = `${count} ${count === 1 ? 'paper' : 'papers'} shown${terms.length ? ' for your search' : ''}.`;
     document.querySelector('.empty-state').hidden = count !== 0;
     showAll.hidden = selection === 'all' || terms.length > 0;

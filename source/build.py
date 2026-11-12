@@ -2,6 +2,7 @@
 """Build a dependency-free static homepage from the publication data."""
 import json
 import re
+from hashlib import sha256
 from html import escape
 from pathlib import Path
 
@@ -43,6 +44,10 @@ def main():
     papers = sorted(papers, key=lambda paper: int(paper.get('year') or 0), reverse=True)
     template = (ROOT / 'source' / 'index.template.html').read_text(encoding='utf-8')
     page = template.replace('{{PUBLICATIONS}}', '\n        '.join(map(render_paper, papers))).replace('{{PAPER_COUNT}}', str(len(papers)))
+    # Fresh asset URLs prevent an older cached script from restoring the previous default filter.
+    for asset in ('assets/style.css', 'assets/site.js'):
+        revision = sha256((ROOT / asset).read_bytes()).hexdigest()[:10]
+        page = page.replace(f'"{asset}"', f'"{asset}?v={revision}"')
     assert '{{' not in page, 'Unresolved template marker'
     (ROOT / 'index.html').write_text(page, encoding='utf-8')
     print(f'Built index.html: {len(papers)} papers, {sum(bool(p.get("featured")) for p in papers)} featured.')
