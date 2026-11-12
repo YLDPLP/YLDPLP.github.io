@@ -26,7 +26,12 @@ def render_paper(paper):
     year = paper.get('year') or '—'
     featured = bool(paper.get('featured'))
     summary = f'<p class="pub-summary">{escape(paper["summary"])}</p>' if paper.get('summary') else ''
-    link = f'<a href="{escape(url, quote=True)}" target="_blank" rel="noopener noreferrer">Paper <span aria-hidden="true">↗</span></a>' if url else ''
+    links = []
+    if url:
+        links.append(f'<a href="{escape(url, quote=True)}" target="_blank" rel="noopener noreferrer">Paper <span aria-hidden="true">↗</span></a>')
+    if paper.get('openreviewUrl'):
+        links.append(f'<a href="{escape(paper["openreviewUrl"], quote=True)}" target="_blank" rel="noopener noreferrer">OpenReview <span aria-hidden="true">↗</span></a>')
+    link = ''.join(links)
     labels = {'manuscript': 'Manuscript', 'preprint': 'Preprint', 'accepted': 'Accepted · year not specified'}
     category = f'<span class="pub-type">{labels[paper["status"]]}</span>' if paper.get('status') in labels else ''
     return f'''<article class="publication" id="{escape(paper['id'], quote=True)}" data-featured="{str(featured).lower()}" data-manuscript="{str(manuscript).lower()}">

@@ -1,5 +1,29 @@
 [
   {
+    "id": "paper-29",
+    "title": "Low-Dimension-to-High-Dimension Generalization and Its Implications for Length Generalization",
+    "authors": [
+      "Yang Chen",
+      "Long Yang",
+      "Yitao Liang",
+      "Zhouchen Lin"
+    ],
+    "year": 2025,
+    "venue": "ICML",
+    "url": "https://proceedings.mlr.press/v267/chen25cb.html",
+    "openreviewUrl": "https://openreview.net/forum?id=ZSXHilmAgR",
+    "topics": [
+      "learning-theory",
+      "generalization"
+    ],
+    "featured": true,
+    "note": "Published in the Proceedings of the 42nd International Conference on Machine Learning (PMLR 267).",
+    "status": "published",
+    "sourceUrl": "https://proceedings.mlr.press/v267/chen25cb.html",
+    "verificationNote": "Title, author order, ICML 2025 venue, pages, and abstract verified against the official PMLR record; OpenReview ID supplied by the user.",
+    "summary": "This paper studies length generalization as low-dimension-to-high-dimension generalization, develops a theoretical framework for inductive bias, and proposes RPE-Square position embeddings for unaligned formats."
+  },
+  {
     "id": "paper-28",
     "title": "DELE-w0.5: Inferring Action from Future Latent State for Robotic Manipulation",
     "authors": [
