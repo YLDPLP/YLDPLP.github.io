@@ -36,6 +36,7 @@ The `.nojekyll` file enables direct static-file publishing. No secret, password,
 
 - Biography, employment, education, and portrait: provided by Long Yang in November 2026.
 - Company English name: confirmed by Long Yang as Shenzhen DeepLeap Technology Co., Ltd.
+- LinkedIn profile URL: supplied by Long Yang. Profile contents were not imported because LinkedIn restricted automated access.
 - Publication entries: supplied publication list, with publication links and later venue information checked against scholarly sources where available. Verification details are retained in `publications.json`.
 - University names follow official institutional English names. Tiangong University's former name is included to clarify the historical education record.
 
